@@ -3,4 +3,4 @@ remote_theme: pages-themes/hacker@v0.2.0
 plugins: jekyll-remote-theme
 title: "Niquapod's Quest for Knowledge"
 author: Niquapod
-description: "This is a site to let me track my progress through the rooms of TryHackMe, and to keep notes on the tools used so I don't always have to refer back to a book."
+description: "My plan for this site is to use it to track my progress through the rooms of TryHackMe and keep notes about the tools and commands used so I don't always have to go digging for a notebook and search through hardcopy for notes when I try to use them again later."
