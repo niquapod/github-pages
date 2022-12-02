@@ -6,4 +6,4 @@ I started trying to get this site up and running after last year's AoC event. I 
 
 Here's hoping...
 
-_Edit:_ It worked! Hopefully changing the theme has worked and it's still displaying properly when I'm done with this.
+_Edit:_ It worked! Hopefully changing the theme has worked and it's still displaying properly when I'm done with this. [Narrator's voice]: _It wasn't._
