@@ -45,19 +45,7 @@ plugins:
  - jekyll-seo-tag
  - jekyll-remote-theme
 
-#jekyll-archives:
- # enabled: all
-  # layouts:
-    # year: year-archive
-    # month: month-archive
-    # tag: tag-archive
-  # permalinks:
-    # year: '/archives/year/:year/'
-    # month: '/archives/month/:year-:month/'
-    # day: '/:year/:month/:day/'
-    # tag: '/archives/tag/:name/'
-
-  slug_mode: latin
+slug_mode: latin
 
 # Archives
 collections:
