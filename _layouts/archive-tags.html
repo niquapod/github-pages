@@ -1,12 +1,22 @@
 ---
 layout: default
+title: Archive
 ---
-<h1>Archive of posts with {{ page.tag }} '{{ page.title }}'</h1>
-<ul class="posts">
-  {% for post in page.posts %}
-    <li>
-      <span class="post-date">{{ post.date | date :"%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>"
-    </li>
-  {% endfor %}
-</ul>
+
+<!-- Begin List Posts
+================================================== -->
+<section class="recent-posts">
+<div class="section-title mt-2">
+    <h2>{{ page.title }}</h2>
+</div>
+<div class="row listrecent">
+
+{% for post in site.posts %}
+{% if post.tags contains page.tag or post.tag == page.tag %}
+    {% include postbox.html %}
+{% endif %}    
+
+{% endfor %}
+
+</div>
+</section>
