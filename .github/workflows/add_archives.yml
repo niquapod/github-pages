@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Jekyyl Blog Archives
-        uses: niquapod/jekyll-blog-archive-workflow
+      - name: Jekyll Blog Archives
+        uses: niquapod/jekyll-blog-archive-workflow@v1.0.3
         with:
           archive_url: "https://niquapod.github.io/github-pages/archives/archivedata"
           archive_folder_path: "_archives"
