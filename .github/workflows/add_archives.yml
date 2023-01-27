@@ -15,7 +15,7 @@ jobs:
       - name: Jekyll Blog Archives
         uses: niquapod/jekyll-blog-archive-workflow@v1.0.3
         with:
-          archive_url: "https://niquapod.github.io/github-pages/archives/archivedata"
+          archive_url: "https://niquapod.github.io/github-pages/archives/archivedata/"
           archive_folder_path: "_archives"
 
       - name: setup git config
