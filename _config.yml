@@ -46,6 +46,7 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-remote-theme
+ - jekyll-paginate
 
 slug_mode: latin
 
