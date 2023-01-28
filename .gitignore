@@ -22,3 +22,7 @@ Gemfile.lock
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Other files
+add_archives.yml
+ci.yml
